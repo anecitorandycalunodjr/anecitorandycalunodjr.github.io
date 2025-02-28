@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>City of Manila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        html, body {
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        a.hover:underline:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="relative">
+        <img alt="Aerial view of Manila cityscape at night" class="w-full h-screen object-cover" height="1080" src="homebg.png" width="1920"/>
+        <nav class="fixed top-0 right-0 w-full flex justify-end py-8 bg-black bg-opacity-50 text-white pr-6">
+            <ul class="flex space-x-10">
+                <li><a class="hover:underline" onclick="scroll(0, 1024);" href="#home">Home</a></li>
+                <li><a class="hover:underline" href="#about">About</a></li>
+                <li><a class="hover:underline" href="#tourist-spots">Tourist Spots</a></li>
+                <li><a class="hover:underline" href="#history">History</a></li>
+                <li><a class="hover:underline" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+            <h1 class="text-5xl font-bold">Welcome to the</h1>
+            <h2 class="text-6xl font-bold">City of MANILA</h2>
+        </div>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-200">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">About</h2>
+            <p class="text-lg mb-4">Manila serves as the center of culture, economy, education, and government in the Philippines. It is the most populous region of the country and one of the most densely populated in the world. It is also the main gateway for international travelers going to the Philippines by flight.</p>
+            <p class="text-lg mb-4">When you say “Manila,” it can mean two things. First, it can refer to the City of Manila, the capital of the Philippines. Manila is made up of 16 administrative districts, including Binondo, Ermita, Intramuros, Malate, and Quiapo, among others.</p>
+            <p class="text-lg mb-4">Second, the greater Metropolitan Manila area is also referred to as Manila. It is officially known as the National Capital Region (NCR) or Metro Manila. It is made up of the City of Manila, Makati, Quezon City, Parañaque, Pasay, Pasig, and Taguig, to name a few.</p>
+            <p class="text-lg">You can read more about it <a class="text-blue-500 underline" href="#">here</a>.</p>
+        </div>
+    </section>
+    <!-- Tourist Spots Section -->
+    <section id="tourist-spots" class="py-16 bg-gray-300">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Tourist Spots</h2>
+            <p class="text-lg text-center mb-8">Manila, the vibrant capital of the Philippines, is a city teeming with history, culture, and modernity. From its Spanish colonial heritage to its bustling metropolis filled with skyscrapers, Manila offers a diverse array of attractions that cater to every traveler’s interests.</p>
+            <div class="flex flex-col items-center">
+                <img alt="Intramuros: The Walled City" class="w-full max-w-4xl mb-4" height="600" src="https://storage.googleapis.com/a1aa/image/n4wvqBzw9G0Jy6EIJhAZ6S3oIqzBu1A-sFIQOAHNUvs.jpg" width="800"/>
+                <p class="text-lg mb-4">Location: Intramuros, Manila</p>
+                <p class="text-lg mb-4">Step back in time and explore the historic heart of Manila at Intramuros, also known as the Walled City. Built during the Spanish colonial period, Intramuros is surrounded by massive stone walls and fortifications that once served as the seat of government and military power. Today, you can wander through cobblestone streets lined with centuries-old buildings, visit iconic landmarks such as Fort Santiago and San Agustin Church, and immerse yourself in Manila’s colonial past.</p>
+            </div>
+        </div>
+    </section>
+    <!-- History Section -->
+    <section id="history" class="py-16 bg-gray-200">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">History of Manila</h2>
+            <p class="text-lg mb-4">Manila’s history is rich and spans centuries, beginning as a thriving settlement before becoming the political, economic, and cultural center of the Philippines. Long before Spanish colonization, the area was already inhabited by indigenous communities and Muslim settlers. It was ruled by Rajah Sulayman and his predecessors, who established a flourishing trade with nearby Asian regions, including China, India, and the Malay Archipelago. The name “Manila” comes from “Maynilad,” derived from a flowering plant that grew abundantly along the banks of the Pasig River.</p>
+            <p class="text-lg mb-4">In 1571, Spanish explorer Miguel López de Legazpi arrived, defeating the local rulers and establishing Manila as the capital of the Spanish East Indies. The Spanish built Intramuros, a fortified city that became the administrative and religious center of the colony. The city played a crucial role in the Manila-Acapulco Galleon Trade, a trade route that connected the Philippines to Mexico and Spain, making Manila a key global trading hub. This economic activity led to the city’s development, but it also made Intramuros a frequent target of foreign invasions, including attacks from Dutch, British, and Chinese pirates.</p>
+            <p class="text-lg mb-4">After over 300 years of Spanish rule, the Philippine Revolution (1896-1898) erupted, led by Filipino revolutionaries seeking independence. Although it was eventually defeated by the United States in the Spanish-American War and Manila was ceded to the U.S., the Philippines, including Manila, was transferred to the Americans under the Treaty of Paris. Manila saw major infrastructure improvements, including modern roads, schools, and public services. The U.S. also established a new form of government and introduced American culture to the city.</p>
+            <p class="text-lg mb-4">However, Manila faced immense destruction during World War II, particularly in 1945 when the city became a battleground between American and Japanese forces. The Battle of Manila led to widespread devastation, with a significant portion of the city’s infrastructure and historical landmarks being destroyed. It is considered one of the most tragic episodes in Manila’s history.</p>
+            <p class="text-lg mb-4">After the war, Manila was rebuilt and officially became the capital of the newly independent Republic of the Philippines in 1946. In the following decades, the city continued to expand, with the rise of modern buildings, commercial districts, and government institutions. Today, Manila remains the heart of the Philippines, blending its rich historical past with rapid urban development. It stands as a testament to the resilience of its people, preserving its heritage while adapting to the demands of modern times.</p>
+            <p class="text-lg">Source: <a class="text-blue-500 underline" href="https://citycouncilofmanila.com.ph/history-of-manila/narrative-history/">https://citycouncilofmanila.com.ph/history-of-manila/narrative-history/</a></p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-300">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-8">Contact Hotlines</h2>
+            <div class="flex justify-center">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                    <h3 class="text-2xl font-bold mb-4">DIAL 911</h3>
+                    <p class="text-lg mb-4">EMERGENCY HOTLINES</p>
+                    <p class="text-3xl font-bold mb-2">8568-6909</p>
+                    <p class="text-3xl font-bold mb-2">0932-662-2322</p>
+                    <p class="text-3xl font-bold mb-2">0950-700-3710</p>
+                    <p class="text-lg mt-4">MANILA PUBLIC INFORMATION OFFICE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
