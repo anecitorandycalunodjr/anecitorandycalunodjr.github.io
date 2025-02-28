@@ -15,14 +15,16 @@
         a.hover:underline:hover {
             text-decoration: underline;
         }
-
+        #home {
+            pointer-events: none;
+        }
     </style>
 </head>
 <body class="bg-gray-100">
     <!-- Header Section -->
     <header class="relative">
         <img alt="Aerial view of Manila cityscape at night" class="w-full h-screen object-cover" height="1080" src="homebg.png" width="1920"/>
-        <nav class="fixed top-0 right-0 w-full flex justify-end py-8 bg-black bg-opacity-50 text-white pr-6">
+        <nav class="fixed top-0 right-0 w-full flex justify-end py-8 bg-black bg-opacity-50 text-white pr-6 z-50">
             <ul class="flex space-x-10">
                 <li><a class="hover:underline" href="#home">Home</a></li>
                 <li><a class="hover:underline" href="#about">About</a></li>
